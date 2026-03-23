@@ -1,54 +1,62 @@
 \documentclass[a4paper, 11pt]{report}
 
-
+% Essential packages
+\usepackage{grad}
 \usepackage{lipsum}
 \usepackage{kotex}
+\usepackage[english]{babel}
+\usepackage{blindtext}
 
-\usepackage{grad,times,epsfig,calc}
-% Enable arbitrary font sizes for Computer Modern fonts
+% Fonts and figure path
+\usepackage{times}
+% \graphicspath{{./figures/}}
 \usepackage{fix-cm}
+
+% Math packages
+\usepackage{amsmath,amssymb,amsthm,amscd,amsfonts}
+\usepackage{mathtools}
+
+% Graphics and tables
 \usepackage{graphicx}
-\graphicspath{{./figures/}}
-\usepackage{amsmath,amssymb,amsthm}
-\usepackage{rotating}
-\usepackage{multirow}
+\usepackage{booktabs}
 \usepackage{tabulary}
 \usepackage{tabularx}
-\usepackage{booktabs}
-\usepackage{subfig}
-\usepackage{rotfloat}
-\usepackage{hyperref}
-\usepackage{mathtools}
-\usepackage{subcaption}
-\usepackage{amscd,amsfonts,epic,eepic,bbm,ytableau}
-\usepackage{tkz-euclide}
-\usetikzlibrary{angles,quotes}
-
+\usepackage{multirow}
 \usepackage{array}
-\usepackage{indentfirst}
-\usepackage{float}
-\usepackage{algorithm, algorithmic}
 
+% Specialized math/figures
+\usepackage{bbm}
+\usepackage{ytableau}
+\usepackage{epic,eepic}
+\usepackage{tkz-euclide}
 
+% TikZ / PGFplots
 \usepackage{tikz}
 \usepackage{pgfplots}
-\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{angles,quotes,shapes,arrows}
+\pgfplotsset{compat=1.5}
+
+% TikZ styles
 \tikzstyle{emptybox} = [rectangle, draw, text width=5em, text centered, rounded corners, minimum height=4em]
 \tikzstyle{line} = [draw, -latex']
 
+% Float/tables/algorithm
+\usepackage{float}
+\usepackage{rotating}
+\usepackage{rotfloat}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+\usepackage{subfig}
+\usepackage{subcaption}
 
-
-\usepackage[english]{babel}
-\usepackage{blindtext}
-\pgfplotsset{compat=1.5}
-
-% Table of Content customization
-\usepackage{titletoc}
-\usepackage[subfigure]{tocloft} % Note: this option is for compatibility with old subfigure pkg
+% Utilities
+\usepackage{indentfirst}
+\usepackage{hyperref}
 \usepackage{ifthen}
 \usepackage{dashrule}
-%\usepackage[nottoc,numbib]{tocbibind}
-%\settocbibname{Bibliography}
+\usepackage{titletoc}
+\usepackage[subfigure]{tocloft}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% New Definitions
