@@ -54,7 +54,6 @@
 \usepackage{hyperref}
 \usepackage{ifthen}
 \usepackage{dashrule}
-\usepackage{titletoc}
 \usepackage[subfigure]{tocloft}
 
 
@@ -192,28 +191,6 @@
 % TABLE OF CONTENTS
 \clearpage
 \pagenumbering{roman}
-% Before \tableofcontents so front matter uses the same chapter TOC style as the body.
-\titlecontents{chapter}
-  [0pt]
-  {}
-  {\bfseries\chaptername\ \thecontentslabel.\quad}
-  {}
-  {\bfseries\dotfill\contentspage}
-
-\titlecontents{section}
-  [15pt]
-  {}
-  {\thecontentslabel\quad}
-  {}
-  {\dotfill\contentspage}
-
-\titlecontents{subsection}
-  [30pt]
-  {}
-  {\thecontentslabel\quad}
-  {}
-  {\dotfill\contentspage}
-
 \tableofcontents
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
