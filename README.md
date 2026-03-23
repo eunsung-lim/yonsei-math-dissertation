@@ -6,7 +6,7 @@ This project provides a LaTeX template for writing your dissertation as a gradua
 
 - This template is structured for mathematical dissertations and should help streamline your writing process.
 - There are several `TODO` comments throughout the files to guide you on what details or content you need to add or modify for your own dissertation.
-- Features such as *List of Figures*, *List of Tables*, and *Appendix* are **not** included, keeping the template simple and focused.
+- The template includes optional sections like *List of Figures*, *List of Tables*, and *Appendix*. If your dissertation does not require these, you can comment out or delete the corresponding parts in the template.
 
 ## How to Use
 
