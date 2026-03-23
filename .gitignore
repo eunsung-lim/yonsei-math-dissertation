@@ -1,0 +1,26 @@
+# OS generated
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# VSCode settings
+.vscode/
+.code-workspace
+
+# Cursor editor
+.cursor/
+
+# Windows files
+*.lnk
+.BIN/
+
+# MacOS
+.AppleDouble/
+.LSOverride
+
+# Common
+*~
+*.swp
+*.swo
+*.tmp
+
