@@ -1,3 +1,17 @@
+# LaTeX files
+*.aux
+*.bbl
+*.blg
+*.fls
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.synctex.gz(busy)
+*.synctex.gz(busy)
+
 # OS generated
 .DS_Store
 Thumbs.db
